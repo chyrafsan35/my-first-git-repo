@@ -1,25 +1,109 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
     <head>
         <title>Trip Blog Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="../font_awesome/css/all.min.css">
     </head>
     <body>
         <header>
             <div class="left">
-            <h1>Trip.Blog</h1>
+            <h1>Trip<span>.</span>Blog</h1>
             <form>
             <input type="text" placeholder="Destination, attraction, hotel etc "></input><i class="fa-solid fa-magnifying-glass"></i>
             </form></div>
-            <div class="right">
+            <nav class="right">
             <ul>
-                <li>Places<i class="fa-solid fa-bars"></i></li>
-                <li>Media<i class="fa-solid fa-bars"></i></li>
+                <li>Places<span class="dropdown_menu"><i class="fa-solid fa-bars"></i>
+                <ul>
+                    <li>Cox's Bazar</li>
+                    <li>Kaptai</li>
+                    <li>Nilgiri</li>
+                </ul></span>
+                </li>
+                <li>Media<span class="dropdown_menu"><i class="fa-solid fa-bars"></i><ul>
+                    <li>Photos</li>
+                    <li>Videos</li>
+                </ul></span>
+               </li>
                 <li>Contact Us</li>
                 <li>Customer Support</li>
                 <button type="submit">Register</button>
             </ul>
-            </div>
+            </nav>
         </header>
+        <main class="main_1">
+            <section class="banner">
+            <div class="text">
+                <h2><span>Share</span> your side of story!</h2>
+                <span>Open, warm, extraordinary, always on your door</span>
+                <p><strong>Explore</strong></p>
+            </div>
+            <div class="image">
+                <img src="../images/final_raw_cover.jpg" alt="banner_image"></div>
+            </section>
+        </main>
+
+        <section class="plan">
+            <h2>Plan Your Trip</h2>
+            <p><u>Plan your trip with proper recomendations and smooth executions</u></p>
+        <div class="card_container">
+            <div class="cards">
+                <img src="../images/sunset_1.jpg" alt="sunset">
+                <h3>Enjoy Peaceful Sights</h3>
+                <p>Nature's beauty captivates and inspires, offering a diverse tapestry of sights, sounds, and sensations that evoke 
+                   feelings of peace and wonder.  </p>
+            </div>
+            <div class="cards">
+                <img src="../images/fish.jpg" alt="sunset">
+                <h3>Explore Cultures</h3>
+                <p>Exploring different cultures around the world can be a life-changing experience that broadens our perspectives and
+                   teaches us valuable lessons about diversity. </p>
+            </div>
+            <div class="cards">
+                <img src="../images/tayem.jpg" alt="sunset">
+                <h3>Beauty Of Lifestyle</h3>
+                <p>The true beauty of different lifestyles lies in their capacity to offer unique perspectives, enrich our understanding
+                   of the world, and contribute to the rich tapestry of human experience.  </p>
+            </div>
+            <div class="cards">
+                <img src="../images/flame.jpg" alt="sunset">
+                <h3>Thriling Experience</h3>
+                <p>Trips may sometimes come with up adventures and thriling experiences. The lifespan of every human being can be defined with 
+                   these parameters of emotions.
+                </p>
+            </div>
+            <div class="cards">
+                <img src="../images/duo.jpg" alt="sunset">
+                <h3>Cherish Every Moment</h3>
+                <p>To truly appreciate life, it's vital to cherish every moment, as each one contributes to the tapestry of our experiences. 
+                   This means being present, noticing the small joys, and finding value in both the happy and challenging times.
+                </p>
+            </div>
+            <div class="cards">
+                <img src="../images/bbq.jpg" alt="sunset">
+                <h3>Frame Memories</h3>
+                <p>Memories are there to show us who we are and where we have come from.So, let's embark on a journey to explore the art of
+                   framing memories and how it enriches our travel experiences.
+                </p>
+            </div>
+            <div class="cards">
+                <img src="../images/naf.jpg" alt="sunset">
+                <h3>Peaceful And Quiet</h3>
+                <p>A lone bird sang a sweet melody, its notes echoing through the tranquil space.t was a place where the mind could wander
+                   freely, unburdened by the usual stresses of daily life.
+                </p>
+            </div>
+            <div class="cards">
+                <img src="../images/watching_sight.jpg" alt="sunset">
+                <h3>Safe Journeys</h3>
+                <p>The phrase acknowledges the potential challenges of travel and expresses the hope that the journey will be free from
+                   harm and filled with positive experiences.
+                </p>
+            </div>
+        </div>
+        </section>
+        <footer></footer>
     </body>
 </html>

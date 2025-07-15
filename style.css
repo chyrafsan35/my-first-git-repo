@@ -5,13 +5,13 @@
 
 @font-face {
     font-family: 'Ubuntu';
-    src: url(../google_fonts/Ubuntu/Ubuntu-Regular.ttf);
+    src: url(google_fonts/Ubuntu/Ubuntu-Regular.ttf);
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Montserrat_Alternates';
-    src: url(../google_fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf);
+    src: url(google_fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf);
 }
 
 h1{

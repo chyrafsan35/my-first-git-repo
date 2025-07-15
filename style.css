@@ -248,5 +248,11 @@ span{
     text-align: center;
     margin: 15px 5px;
 }
+
+@media screen and (max-width : 576px) {
+    .card_container{
+        flex-direction: column;
+    }
+}
 /*
 muradpur, haater bame, goru bajar, hamzarbag moor .*/
